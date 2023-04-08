@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Landing from './Pages/Landing.js'
+import OurStory from './Pages/OurStory.js';
 
 
 function App() {
@@ -23,10 +24,14 @@ function App() {
       path: "/",
       element: <Landing />,
     },
+    {
+      path:"/ourstory",
+      element: <OurStory/>
+    }
   ]);
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
           <RouterProvider router={router} />
     </ThemeProvider>
 

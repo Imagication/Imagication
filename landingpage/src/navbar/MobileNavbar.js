@@ -1,20 +1,15 @@
 import Logo from '../icons/logo.png'
 import React, {useState} from 'react'
-
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Drawer from '@mui/material/Drawer';
-import ListIcon from '@mui/icons-material/List';
 import { Link } from "react-router-dom";
 import { Toolbar  } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
@@ -123,13 +118,8 @@ export default function MobileNavbar() {
                       </ListItemButton>
                       </Link>
                     </Box>
-                    
-
                   </Box>
-                
               </Drawer>
-
-
             </Toolbar>
             </Box>
             </Grid>
