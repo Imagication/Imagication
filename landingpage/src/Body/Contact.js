@@ -8,7 +8,7 @@ export default function Contact() {
       }
     return(
         <div >
-            <Grid container direction='column' justifyContents='center' alignItems='center' rowGap='40px' className='pt-48'>
+            <Grid container direction='column' justifyContent='center' alignItems='center' rowGap='40px' className='pt-48'>
                 <Grid container direction='column' justifyContent='center' alignItems='center' rowGap='10px'>
                     <div className='contact-us'>
                         Contact Us

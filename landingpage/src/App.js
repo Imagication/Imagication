@@ -8,7 +8,8 @@ import {
 } from "react-router-dom";
 import Landing from './Pages/Landing.js'
 import OurStory from './Pages/OurStory.js';
-
+import ForSchools from './Pages/ForSchools.js';
+import Pricing from './Pages/Pricing.js';
 
 function App() {
   const theme = createTheme({
@@ -27,6 +28,14 @@ function App() {
     {
       path:"/ourstory",
       element: <OurStory/>
+    },
+    {
+      path:"/forschools",
+      element: <ForSchools/>
+    },
+    {
+      path:"/pricing",
+      element: <Pricing/>
     }
   ]);
 

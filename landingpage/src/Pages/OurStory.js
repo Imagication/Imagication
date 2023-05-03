@@ -16,7 +16,7 @@ function OurStory() {
     return (
         <div> 
             <MobileNavbar/>
-            <MobileText/>
+            <MobileText />
             <Team/>
             {isMobile ? <MobileFooter/> : <LaptopFooter/> }
         </div>

@@ -24,12 +24,22 @@ body {
     padding-left: 8px;
 }
 
+.p-10 {
+padding: 10%;
+}
+
 .pb-48 {
     padding-bottom: 48px;
 }
 
 .m-8{
     margin:8px;
+}
+.white {
+    color:white;
+}
+.pl-20{
+    padding-left: 20px;
 }
 
 
@@ -204,7 +214,7 @@ body {
     color: white;
     font-size: 24px;
     font-weight: 300;
-    width: 70%;
+    width: 80%;
 }
 
 /* Our Story */
@@ -234,7 +244,8 @@ padding: 0px 20px;
     }
     .story-main {
       font-size: 32px;
-      display:'flex',
+      display:'flex';
+      width: 40%;
     }
     .story-subtext {
       font-size: 20px;
@@ -257,4 +268,214 @@ padding: 0px 20px;
 }
 .team-card {
     height:220px;
+}
+
+/* For Schools */
+
+.hero-main {
+    background: linear-gradient(180deg, #FF5555 -129.49%, #FFFFFF 114.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 32px;
+    font-weight: 700; 
+}
+
+.forschool-container{
+    text-align: center;
+    
+    
+}
+
+.banner-container {
+background: linear-gradient(22.86deg, #853642 4.64%, #FF5555 17.83%, rgba(255, 107, 85, 0.984167) 27.88%, rgba(255, 126, 85, 0.97) 36.87%);/* background-color: red; */
+border-radius: 10px;
+max-width: 250px;
+
+}
+
+.banner-header{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 30px 30px 0px 30px;
+}
+
+.banner-body {
+    font-size: 15px;
+    padding: 30px 30px 0px 30px;
+    font-weight: 500;
+}
+
+.banner-quote {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 40px 30px 30px;
+}
+.banner-pic {
+    object-fit: cover;
+    width: 90%;
+    height:95%;
+    border-radius: 5px;
+}
+
+.benefits-container {
+background: linear-gradient(358.49deg, rgba(0, 0, 0, 0.2) 1.33%, rgba(0, 0, 0, 0.06) 93.94%), rgba(109, 109, 109, 0.23);
+border-radius: 10px;
+margin: 30px;
+padding: 6%;
+max-width: 300px;
+}
+.benefits-header {
+    background: linear-gradient(90.74deg, #FF5555 12.98%, rgba(255, 126, 85, 0.97) 95.89%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: 800;
+font-size: 14px;
+
+}
+
+
+.quote-header{
+    background: linear-gradient(0deg, #FF5555 -237.82%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: 700;
+text-align: center;
+width: 90%;
+}
+
+.quote-subtext{
+    width: 60%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .hero-main {
+        font-size: 48px;
+    }
+    .banner-container{
+        max-width: 700px;
+        height: 400px;
+    }
+    .banner-header {
+        padding-bottom: 30px;
+        font-size: 28px;
+        width: 300px;
+    }
+    .banner-body{
+        font-size: 20px;
+        font-weight: 600;
+        width: 60%;
+    }
+    .banner-quote{
+        font-size: 16px;
+        width: 70%;
+    }
+    .banner-pic {
+        width: 350px;
+        height: 350px;
+    }
+
+    .benefits-container {
+        padding: 3%;
+    }
+    .quote-header {
+        font-size: 32px;
+        width: 550px;
+    }
+    .quote-subtext{
+        font-size: 20px;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+    .banner-container{
+        background: linear-gradient(163.65deg, #FF5555 27.73%, rgba(255, 107, 85, 0.984167) 72.91%, rgba(255, 126, 85, 0.97) 103.1%);
+    }
+    .forschool-container{
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .banner-container{
+        max-width: 1000px;
+        height: 400px;
+    }
+    .banner-pic{
+        width:450px;
+        height: 370px;
+    }
+    .benefits-container {
+        padding: 1.5%;
+    }
+}
+/* Pricing */
+.pricing-header {
+    background: linear-gradient(19.75deg, rgba(255, 126, 85, 0.97) -36.79%, #FF5555 152.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 32px;
+    font-weight: 700;    
+    letter-spacing: 0.06em;
+
+}
+
+.pricing-title {
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+}
+.base-container {
+
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 12%;
+    width:70vw;
+}
+.base-title {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.base-pricing {
+    font-weight: 700;
+    font-size: 32px;
+}
+.cost-btn{
+    background-color: white;
+    width: 211px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 600;
+
+}
+.cost-btn:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .cost-btn:active {
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+.FAQ-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .base-container{
+       max-width: 700px;
+    }
+
 }
