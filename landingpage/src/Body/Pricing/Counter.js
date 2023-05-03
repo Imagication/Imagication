@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove'
-import { white } from '@mui/material/colors';
 function Counter(props) {
     const { minValue, onIncrement, onDecrement } = props;
     const [count, setCount] = React.useState(minValue);

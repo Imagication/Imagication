@@ -1,5 +1,5 @@
 import React from 'react'
-import {Grid, useMediaQuery, Box} from '@mui/material';
+import {Grid, Box} from '@mui/material';
 import CheckIcon from '@mui/icons-material/Check';
 export default function BasePackage() {
 

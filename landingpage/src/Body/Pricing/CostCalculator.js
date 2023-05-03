@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Grid, useMediaQuery, Box, Button, Typography} from '@mui/material';
+import {Grid, Box, Typography} from '@mui/material';
 import Counter from './Counter.js';
 import FormDialog from './Form';
 
