@@ -1,5 +1,7 @@
 import React from 'react'
 import {Grid} from '@mui/material';
+import { Link } from 'react-router-dom';
+
 export default function Quote() {
 
     return(
@@ -11,9 +13,12 @@ export default function Quote() {
                 <div className='white quote-subtext'>
                 First 5 will receive a discounted quote
                 </div>
-                <button className='contact-btn'>
-                    Get a quote
-                </button>
+                <Link to="/pricing">
+                    <button className='contact-btn'>
+                        Get a quote
+                    </button>
+                </Link>
+
             </Grid>
         </div>
     )
