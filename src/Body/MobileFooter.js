@@ -42,7 +42,7 @@ export default function MobileFooter() {
                     </Grid>
                     <Grid container justifyContent='center'>
                         <div style={{color: '#666666'}}>
-                            Imagication, Inc. 2023
+                            Imagication
                         </div>
                     </Grid>
             </Grid>
