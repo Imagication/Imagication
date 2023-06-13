@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47c7fe84.css",
+    "main.js": "/static/js/main.f024c321.js",
+    "static/media/LandingPageVideo.gif": "/static/media/LandingPageVideo.49b63a12c5f45e6d0b52.gif",
+    "static/media/Eli.jpg": "/static/media/Eli.d7d61a982b04e86b8622.jpg",
+    "static/media/look-around.gif": "/static/media/look-around.89a557bfd953ec211d90.gif",
+    "static/media/Jumping-For-Joy.gif": "/static/media/Jumping-For-Joy.ba684d2fc52c53b43220.gif",
+    "static/media/Katherine.jpg": "/static/media/Katherine.ec9671444feba8053236.jpg",
+    "static/media/Waving-Craig.gif": "/static/media/Waving-Craig.b6ccddc3c8b53846219a.gif",
+    "static/media/Gabe.jpg": "/static/media/Gabe.d97e1b20ac366e054880.jpg",
+    "static/media/Diana.png": "/static/media/Diana.3ba6f3761e428f95e0ce.png",
+    "static/media/logo.png": "/static/media/logo.db82040aa69c8ed34e08.png",
+    "static/media/Bryan.png": "/static/media/Bryan.db309b6749e4cd7c0d2a.png",
+    "static/media/Koudjedji.jpg": "/static/media/Koudjedji.55f4a77606f4eb5c3a58.jpg",
+    "static/media/Stevens.jpg": "/static/media/Stevens.f06b906d1ba9ebd9ad7d.jpg",
+    "static/media/Stevens-2.jpg": "/static/media/Stevens-2.c996e7418e7c8535d6fe.jpg",
+    "static/media/montserrat-all-400-normal.woff": "/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
+    "static/media/montserrat-latin-400-normal.woff2": "/static/media/montserrat-latin-400-normal.acb6629fe45c43ad5d8b.woff2",
+    "static/media/montserrat-latin-ext-400-normal.woff2": "/static/media/montserrat-latin-ext-400-normal.0204ec08a4b574088f02.woff2",
+    "static/media/montserrat-cyrillic-ext-400-normal.woff2": "/static/media/montserrat-cyrillic-ext-400-normal.bbf9e820a2563aac0d8b.woff2",
+    "static/media/montserrat-cyrillic-400-normal.woff2": "/static/media/montserrat-cyrillic-400-normal.e5c5c19c23e370a342c8.woff2",
+    "static/media/montserrat-vietnamese-400-normal.woff2": "/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
+    "index.html": "/index.html",
+    "main.47c7fe84.css.map": "/static/css/main.47c7fe84.css.map",
+    "main.f024c321.js.map": "/static/js/main.f024c321.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c7fe84.css",
+    "static/js/main.f024c321.js"
+  ]
+}
